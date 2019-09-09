@@ -11,7 +11,7 @@ public class MyHomeWork_3 {
                 "\"cherry\", \"garlic\", \"grape\", \"melon\", \"leak\", \"kiwi\", \"mango\", \"mushroom\", \"nut\", \"olive\", \"pea\",\n" +
                 "\"peanut\", \"pear\", \"pepper\", \"pineapple\", \"pumpkin\", \"potato\"");
 
-        guess2();
+        //guess2();
 
     }
     //exercize_1
