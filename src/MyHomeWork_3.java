@@ -6,11 +6,11 @@ public class MyHomeWork_3 {
     public static Scanner sc =  new Scanner(System.in);
 
     public static void main(String[] args) {
+        //раскомментировать для игры №1
         //guessNumber();
-        System.out.println("\"apple\", \"orange\", \"lemon\", \"banana\", \"apricot\", \"avocado\", \"broccoli\", \"carrot\",\n" +
-                "\"cherry\", \"garlic\", \"grape\", \"melon\", \"leak\", \"kiwi\", \"mango\", \"mushroom\", \"nut\", \"olive\", \"pea\",\n" +
-                "\"peanut\", \"pear\", \"pepper\", \"pineapple\", \"pumpkin\", \"potato\"");
 
+
+        //раскомментировать для игры №1
         //guess2();
 
     }
@@ -64,15 +64,24 @@ public class MyHomeWork_3 {
     }
     //exercize_2
     public static void guess2 () {
+        System.out.println("\"apple\", \"orange\", \"lemon\", \"banana\", \"apricot\", \"avocado\", \"broccoli\", \"carrot\",\n" +
+                "\"cherry\", \"garlic\", \"grape\", \"melon\", \"leak\", \"kiwi\", \"mango\", \"mushroom\", \"nut\", \"olive\", \"pea\",\n" +
+                "\"peanut\", \"pear\", \"pepper\", \"pineapple\", \"pumpkin\", \"potato\"");
+
+        //создаем массив слов
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot",
                 "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea",
                 "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
+
         Random randIndex = new Random();
 
+        //генерируем рандомное слово
         String guesWord = words[randIndex.nextInt(words.length)];
-        System.out.println(guesWord);
+
+        //подсказка
         char[] hint = {'#','#','#','#','#','#','#','#','#','#','#','#'};
         int hintIndex = 0;
+        //количество попыток
         int attempt = guesWord.length();
 
         while(true) {
