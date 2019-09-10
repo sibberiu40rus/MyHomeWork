@@ -21,10 +21,12 @@ public class Employee {
         System.out.println("ФИО - " + name + "\nДолжность - " + position + "\nEmail - " + email +
                 "\nТел.номер - " + phoneNumber + "\nЗарплата - " + salary + "\nВозраст - " + age);
     }
-
-    public String toString (Employee[] emp) {
-        for ()
+    public String toString() {
+        return "ФИО - " + this.name + "\nДолжность - " + this.position + "\nEmail - " + this.email +
+                "\nТел.номер - " + this.phoneNumber + "\nЗарплата - " + this.salary + "\nВозраст - " + this.age;
     }
+
+
 
     public String getName() {
         return name;
@@ -74,8 +76,4 @@ public class Employee {
         this.age = age;
     }
 }
-//    Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
-//Конструктор класса должен заполнять эти поля при создании объекта;
-//Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль;
-//Создать массив из 5 сотрудников; С помощью цикла вывести информацию только о сотрудниках старше 40 лет;
-//Показать знание инкапсуляции как сокрытия.
+
