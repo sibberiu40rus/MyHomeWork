@@ -13,9 +13,5 @@ public class MyHomeWork_5 {
         empArr[4] = new Employee("Максим","Машинюга","максим@пес","9308409650",70000,77);
 
         System.out.println(empArr[1].toString());
-
-
-
-
     }
 }
